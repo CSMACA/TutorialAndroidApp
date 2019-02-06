@@ -2,4 +2,5 @@
     <string name="app_name">Tutorial App</string>
     <string name="button_send">Send</string>
     <string name="enter_message">Enter a Message Here</string>
+    <string name="message_repeat_prologue">Your Message: %1$s</string>
 </resources>
