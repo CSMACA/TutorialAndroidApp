@@ -13,11 +13,11 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="10dp"
             android:scrollbarStyle="insideOverlay"
-            android:id="@+id/repeat_scrollview">
+            android:id="@+id/repeatScrollview">
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/messageRepeated"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:layout_gravity="start" android:textAlignment="textStart"
                 android:text="@string/message_repeat_prologue" android:typeface="monospace" android:textSize="14sp"
                 android:lineSpacingExtra="14sp" android:textColor="@color/textColor"/>
     </ScrollView>
